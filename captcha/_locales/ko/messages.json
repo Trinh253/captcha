@@ -6,7 +6,7 @@
       "message": "모든 페이지에서 AI를 사용하여 hCAPTCHA 및 reCAPTCHA를 해결하세요. 더 쉬운 데이터 수집을 위해 NoCoding Data Scraper와의 원활한 통합"
    },
    "extName": {
-      "message": "CAPTCHA 해결사: 무료 자동 hCAPTCHA reCAPTCHA"
+      "message": "CAPTCHA 해결사: 자동 hCAPTCHA reCAPTCHA 자유롭게"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "없음 (감지 중지)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "보안문자 자동 감지 및 해결"
    },
    "lbl_setting": {

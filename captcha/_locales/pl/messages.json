@@ -6,7 +6,7 @@
       "message": "rozwiąż hCAPTCHA i reCAPTCHA przy użyciu sztucznej inteligencji na dowolnych stronach. Bezproblemowa integracja z NoCoding Data Scraper dla łatwiejszego gromadzenia danych"
    },
    "extName": {
-      "message": "Solver CAPTCHA: darmowy automatyczny hCAPTCHA reCAPTCHA"
+      "message": "Solver CAPTCHA: auto hCAPTCHA reCAPTCHA swobodnie"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "none (przestań wykrywać)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "Automatyczne wykrywanie i rozwiązywanie CAPTCHA włączone"
    },
    "lbl_setting": {

@@ -6,7 +6,7 @@
       "message": "任意のページで AI を使用して hCAPTCHA と reCAPTCHA を解決します。NoCoding Data Scraper とのシームレスな統合により、データ収集が容易になります。"
    },
    "extName": {
-      "message": "CAPTCHA ソルバー: 無料の自動 hCAPTCHA reCAPTCHA"
+      "message": "CAPTCHA ソルバー: 自動 hCAPTCHA reCAPTCHA を自由に"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "なし (検出停止)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "CAPTCHA を自動検出して解決します"
    },
    "lbl_setting": {

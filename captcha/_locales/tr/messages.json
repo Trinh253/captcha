@@ -6,7 +6,7 @@
       "message": "herhangi bir sayfada AI kullanarak hCAPTCHA ve reCAPTCHA'yı çözün. Daha kolay veri toplamak için NoCoding Veri Kazıyıcı ile sorunsuz entegrasyon"
    },
    "extName": {
-      "message": "CAPTCHA Çözücü: ücretsiz otomatik hCAPTCHA reCAPTCHA"
+      "message": "CAPTCHA Çözücü: otomatik hCAPTCHA reCAPTCHA serbestçe"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "yok (algılamayı durdur)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "CAPTCHA'yı otomatik olarak algıla ve çöz"
    },
    "lbl_setting": {

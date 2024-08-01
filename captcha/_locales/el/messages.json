@@ -6,7 +6,7 @@
       "message": "solve hCAPTCHA and reCAPTCHA using AI σε οποιεσδήποτε σελίδες. Απρόσκοπτη ενσωμάτωση με NoCoding Data Scraper για ευκολότερη συλλογή δεδομένων"
    },
    "extName": {
-      "message": "Επίλυση CAPTCHA: δωρεάν αυτόματο hCAPTCHA reCAPTCHA"
+      "message": "Επίλυση CAPTCHA: αυτόματο hCAPTCHA reCAPTCHA ελεύθερα"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "none (stop εντοπισμού)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "Αυτόματος εντοπισμός και επίλυση CAPTCHA σε"
    },
    "lbl_setting": {

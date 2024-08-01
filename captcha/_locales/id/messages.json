@@ -6,7 +6,7 @@
       "message": "selesaikan hCAPTCHA dan reCAPTCHA menggunakan AI di halaman mana pun. Integrasi sempurna dengan NoCoding Data Scraper untuk memudahkan pengumpulan data"
    },
    "extName": {
-      "message": "Pemecah CAPTCHA: reCAPTCHA hCAPTCHA otomatis gratis"
+      "message": "Pemecah CAPTCHA: reCAPTCHA hCAPTCHA otomatis dengan bebas"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "tidak ada (berhenti mendeteksi)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "Deteksi otomatis dan selesaikan CAPTCHA aktif"
    },
    "lbl_setting": {

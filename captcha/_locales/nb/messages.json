@@ -6,7 +6,7 @@
       "message": "løs hCAPTCHA og reCAPTCHA ved hjelp av AI på alle sider. Sømløs integrasjon med NoCoding Data Scraper for enklere datainnsamling"
    },
    "extName": {
-      "message": "CAPTCHA Solver: gratis automatisk hCAPTCHA reCAPTCHA"
+      "message": "CAPTCHA Solver: auto hCAPTCHA reCAPTCHA fritt"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "ingen (slutt å oppdage)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "Automatisk oppdage og løse CAPTCHA på"
    },
    "lbl_setting": {

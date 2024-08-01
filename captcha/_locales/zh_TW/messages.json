@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "無 (停止偵測)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "自動偵測並解決驗證碼的範圍"
    },
    "lbl_setting": {

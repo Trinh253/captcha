@@ -18,7 +18,7 @@
       }
     },
     "condition": {
-      "regexFilter": "^https://[^\\.]*\\.(google\\.com|recaptcha\\.net|hcaptcha\\.com|hcaptcha\\.net)/(recaptcha|captcha)",
+      "regexFilter": "^https://[^\\.]*\\.(google\\.com|recaptcha\\.net|hcaptcha\\.com|hcaptcha\\.net)(?:\\.[a-z]{2,3})?/(recaptcha|captcha)",
       "resourceTypes": ["sub_frame"]
     }
   }

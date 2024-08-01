@@ -6,7 +6,7 @@
       "message": "lös hCAPTCHA och reCAPTCHA med AI på alla sidor. Sömlös integration med NoCoding Data Scraper för enklare datainsamling"
    },
    "extName": {
-      "message": "CAPTCHA Solver: gratis automatisk hCAPTCHA reCAPTCHA"
+      "message": "CAPTCHA Solver: auto hCAPTCHA reCAPTCHA fritt"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "ingen (sluta upptäcka)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "Automatisk upptäckt och lös CAPTCHA på"
    },
    "lbl_setting": {

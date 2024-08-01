@@ -6,7 +6,7 @@
       "message": "giải hCAPTCHA và reCAPTCHA bằng AI trên bất kỳ trang nào. Tích hợp liền mạch với NoCoding Data Scraper để thu thập dữ liệu dễ dàng hơn"
    },
    "extName": {
-      "message": "Trình giải mã CAPTCHA: hCAPTCHA reCAPTCHA tự động miễn phí"
+      "message": "CAPTCHA Solver: tự động hCAPTCHA reCAPTCHA một cách tự do"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "none (ngừng phát hiện)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "Tự động phát hiện và giải CAPTCHA trên"
    },
    "lbl_setting": {

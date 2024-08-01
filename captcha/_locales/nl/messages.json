@@ -6,7 +6,7 @@
       "message": "los hCAPTCHA en reCAPTCHA op met behulp van AI op elke pagina. Naadloze integratie met NoCoding Data Scraper voor eenvoudiger gegevensverzameling"
    },
    "extName": {
-      "message": "CAPTCHA-oplosser: gratis automatische hCAPTCHA reCAPTCHA"
+      "message": "CAPTCHA-oplosser: auto hCAPTCHA reCAPTCHA vrij"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "none (stop met detecteren)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "CAPTCHA automatisch detecteren en oplossen aan"
    },
    "lbl_setting": {

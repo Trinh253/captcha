@@ -26,6 +26,10 @@
       "match_about_blank": false,
       "matches": [ "*://*.hcaptcha.com/captcha/*", "*://*.google.com/recaptcha/api2/*", "*://*.google.com/recaptcha/enterprise/*", "*://*.recaptcha.net/recaptcha/api2/*", "*://*.recaptcha.net/recaptcha/enterprise/*" ],
       "run_at": "document_end"
+   }, {
+      "js": [ "/content/manageIndex.js" ],
+      "matches": [ "https://solver.minirpa.net/*" ],
+      "run_at": "document_end"
    } ],
    "content_security_policy": {
       "extension_pages": "script-src 'self'; object-src 'self'"
@@ -54,9 +58,9 @@
    "permissions": [ "storage", "declarativeNetRequest", "alarms" ],
    "short_name": "CAPTCHA Solver",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.0.13",
+   "version": "0.2.1",
    "web_accessible_resources": [ {
       "matches": [ "\u003Call_urls>" ],
-      "resources": [ "static/*" ]
+      "resources": [ "static/wasm.wasm", "static/wasm-simd.wasm", "static/eJwrSo2vzM_JLzPVTUktSU0uyczPiy8z0MsvKgEAijwKGQ==", "static/eJwrzk-Jz8wrsYgvM9DLLyoBAC6zBbE=", "static/eJxLSywuCXb01S2Oz8wrsYgvM9DLLyoBAFPcB5o=", "static/eJzLzU_KzEnNSy0pM44vM9DLLyoBAEPaBvE=", "static/eJzzzU_KzEn1Sy0JM47PSSxKT40vTInPzCuxiC8z1MvPy6sAANRyDIA=", "static/rules.json", "options/options.html**", "/content/**", "popup/popup.html**" ]
    } ]
 }

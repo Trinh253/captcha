@@ -6,13 +6,13 @@
       "message": "solve hCAPTCHA and reCAPTCHA using AI on any pages. Seamless integration with NoCoding Data Scraper for easier data collection"
    },
    "extName": {
-      "message": "CAPTCHA Solver: free auto hCAPTCHA reCAPTCHA"
+      "message": "CAPTCHA Solver: auto hCAPTCHA reCAPTCHA freely"
    },
    "extShortName": {
       "message": ""
    },
    "lbl_addon_link_status": {
-      "message": "Partner Add-ons"
+      "message": "Partner Link Status"
    },
    "lbl_col_addonName": {
       "message": "Add-on"
@@ -27,7 +27,7 @@
       "message": "We value your feedback!"
    },
    "lbl_comment_2": {
-      "message": "Please take 5 seconds to share your comments."
+      "message": "Help take 5 seconds to share your comments."
    },
    "lbl_logo": {
       "message": "MiniRPA CAPTCHA Solver"
@@ -35,8 +35,11 @@
    "lbl_no_addons": {
       "message": "No add-on connectable yet."
    },
+   "lbl_pro_setting": {
+      "message": "Pro"
+   },
    "lbl_rm_addon": {
-      "message": "active tab and tabs from partner add-ons synchronously"
+      "message": "+ tabs from partner add-ons"
    },
    "lbl_rm_curtab": {
       "message": "active tab"
@@ -44,11 +47,14 @@
    "lbl_rm_no": {
       "message": "none (stop detecting)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "Auto detect and solve CAPTCHA on"
    },
    "lbl_setting": {
       "message": "Setting"
+   },
+   "lbl_solver_switch": {
+      "message": "Solver Switch"
    },
    "partner_nds": {
       "message": "NoCoding Data Scraper"

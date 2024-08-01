@@ -6,7 +6,7 @@
       "message": "hCAPTCHA und reCAPTCHA mithilfe von KI auf allen Seiten lösen. Nahtlose Integration mit NoCoding Data Scraper für einfachere Datenerfassung"
    },
    "extName": {
-      "message": "CAPTCHA-Löser: kostenloses automatisches hCAPTCHA reCAPTCHA"
+      "message": "CAPTCHA-Löser: Auto hCAPTCHA reCAPTCHA frei"
    },
    "extShortName": {
       "message": ""
@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "none (Erkennung stoppen)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "CAPTCHA automatisch erkennen und lösen aktiviert"
    },
    "lbl_setting": {

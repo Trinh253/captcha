@@ -44,7 +44,7 @@
    "lbl_rm_no": {
       "message": "无 (停止检测)"
    },
-   "lbl_run_mode": {
+   "lbl_run_scope": {
       "message": "自动检测并解决验证码的范围"
    },
    "lbl_setting": {
