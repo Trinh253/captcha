@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "套用變更"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "啟用自訂過濾器"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "匯出…"
@@ -10,10 +14,6 @@
    "1pExportFilename": {
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "my-ublock-static-filters_{{datetime}}.txt"
-   },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "每行一個過濾規則。規則可以單純是主機名稱，或是與 EasyList 相容的過濾規則。以 \u003Ccode>!\u003C/code> 開頭的行將被忽略。"
    },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
@@ -23,9 +23,13 @@
       "description": "appears as tab name in dashboard",
       "message": "自訂靜態過濾規則"
    },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "允許需要信任的自訂過濾規則"
+   },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
-      "message": "請勿添加未信任來源的過濾規則。"
+      "message": "切勿添加來歷不明的過濾規則。"
    },
    "3pApplyChanges": {
       "description": "English: Apply changes",
@@ -51,17 +55,21 @@
       "description": "Filter lists section name",
       "message": "嫌惡元素"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Cookie 通知"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "自訂"
    },
    "3pGroupDefault": {
       "description": "Filter lists section name",
-      "message": "內建"
+      "message": "內置"
    },
    "3pGroupMalware": {
       "description": "Filter lists section name",
-      "message": "惡意軟體防護及安全性"
+      "message": "惡意軟體保護及保安"
    },
    "3pGroupMultipurpose": {
       "description": "Filter lists section name",
@@ -75,13 +83,17 @@
       "description": "Filter lists section name",
       "message": "地區、語言"
    },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "社交媒體小工具"
+   },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
       "message": "忽略一般元素隱藏過濾規則"
    },
    "3pIgnoreGenericCosmeticFiltersInfo": {
       "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature.",
-      "message": "通用元素隱藏過濾規則 是會套用在所有網頁的元素隱藏過濾規則。啟用此選項會減少每個網頁，因處理一般元素隱藏過濾規則，而增加的記憶體與 CPU 使用量。\n\n建議在效能較差的裝置上啟用此選項。"
+      "message": "「通用元素隱藏過濾規則」是會套用在所有網站上的網頁元素過濾規則。啟用此選項會消除網頁處理此類規則時增加的額外記憶體與 CPU 使用量。\n\n建議在擁有較低效能的裝置上啟用此選項。"
    },
    "3pImport": {
       "description": "The label for the checkbox used to import external filter lists",
@@ -89,7 +101,7 @@
    },
    "3pLastUpdate": {
       "description": "used as a tooltip for the clock icon beside a list",
-      "message": "最後更新：{{ago}}。\n點擊此處以要求更新。"
+      "message": "上次更新：{{ago}}。\n點擊此處以強制更新。"
    },
    "3pListsOfBlockedHostsHeader": {
       "description": "English: Lists of blocked hosts",
@@ -113,7 +125,7 @@
    },
    "3pParseAllABPHideFiltersInfo": {
       "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature.",
-      "message": "元素隱藏過濾規則 用於隱藏網頁中礙眼，且不能被基於網路請求的過濾引擎所阻擋的元素。"
+      "message": "「網頁元素過濾規則」用來隱藏網頁中被認為礙眼，且不能被以網路請求為基礎之過濾引擎所阻擋的元素。"
    },
    "3pParseAllABPHideFiltersPrompt1": {
       "description": "English: Parse and enforce Adblock+ element hiding filters.",
@@ -173,7 +185,7 @@
    },
    "aboutCode": {
       "description": "English: Source code (GPLv3)",
-      "message": "程式原始碼（GPLv3）"
+      "message": "源碼（GPLv3）"
    },
    "aboutContributors": {
       "description": "English: Contributors",
@@ -217,7 +229,7 @@
    },
    "aboutSourceCode": {
       "description": "Link text to source code repo",
-      "message": "原始碼"
+      "message": "源碼"
    },
    "aboutTranslations": {
       "description": "Link text to translations repo",
@@ -229,7 +241,7 @@
    },
    "advancedSettingsWarning": {
       "description": "A warning to users at the top of 'Advanced settings' page",
-      "message": "警告！修改進階設定時請自負風險。"
+      "message": "警告！修改進階設定時，請自負風險。"
    },
    "assetViewerPageName": {
       "description": "Title for the asset viewer page",
@@ -273,7 +285,7 @@
    },
    "contextMenuViewSource": {
       "description": "A context menu entry, to view the source code of the target resource",
-      "message": "檢視原始碼…"
+      "message": "檢視源碼…"
    },
    "dashboardName": {
       "description": "English: uBlock₀ — Dashboard",
@@ -281,7 +293,7 @@
    },
    "dashboardUnsavedWarning": {
       "description": "A warning in the dashboard when navigating away from unsaved changes",
-      "message": "警告！您有尚未儲存的變更"
+      "message": "警告！變更尚未儲存。"
    },
    "dashboardUnsavedWarningIgnore": {
       "description": "Label for button to ignore unsaved changes",
@@ -337,7 +349,7 @@
    },
    "docblockedTitle": {
       "description": "Used as a title for the document-blocked page",
-      "message": "頁面已阻擋"
+      "message": "已封鎖頁面"
    },
    "dummy": {
       "description": "so we dont need to deal with comma for last entry",
@@ -377,7 +389,7 @@
    },
    "extShortDesc": {
       "description": "this will be in the Chrome web store: must be 132 characters or less",
-      "message": "終於有套使用不多的 CPU 及記憶體資源的高效率阻擋器。"
+      "message": "終於，有款僅使用少量 CPU 及記憶體的高效率阻擋器。"
    },
    "fennecMenuItemBlockingOff": {
       "description": "Firefox-specific: appears as 'uBlock₀ (off)'",
@@ -473,7 +485,7 @@
    },
    "loggerEntryDetailsPartyness": {
       "description": "Label to identify a field providing partyness information",
-      "message": "所屬方"
+      "message": "第一方/第三方"
    },
    "loggerEntryDetailsRootContext": {
       "description": "Label to identify a root context field (typically a hostname)",
@@ -573,7 +585,7 @@
    },
    "loggerSettingHideColumnPartyness": {
       "description": "A label for the partyness column",
-      "message": "{{input}} 所屬方"
+      "message": "{{input}} 第一方/第三方"
    },
    "loggerSettingHideColumnTime": {
       "description": "A label for the time column",
@@ -713,11 +725,11 @@
    },
    "popup3pPassiveRulePrompt": {
       "description": "",
-      "message": "第三方 階層式樣式表 / 圖片"
+      "message": "第三方 CSS / 圖片"
    },
    "popup3pScriptFilter": {
       "description": "Appears as an option to filter out firewall rows",
-      "message": "腳本"
+      "message": "指令碼"
    },
    "popup3pScriptRulePrompt": {
       "description": "",
@@ -805,7 +817,7 @@
    },
    "popupPowerSwitchInfo": {
       "description": "English: Click: disable/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page.",
-      "message": "點擊：對此網站 停用/啟用 uBlock₀ 。\n\nCtrl + 點擊：僅在此頁面停用 uBlock₀ 。"
+      "message": "點擊：在此網站 停用/啟用 uBlock₀ 。\n\nCtrl + 點擊：僅在此頁面停用 uBlock₀ 。"
    },
    "popupPowerSwitchInfo1": {
       "description": "Message to be read by screen readers",
@@ -873,11 +885,11 @@
    },
    "popupTipNoRemoteFonts1": {
       "description": "Tooltip for the no-remote-fonts per-site switch",
-      "message": "點擊以封鎖此網站的遠端字體"
+      "message": "點擊以封鎖此網站的遠端字型"
    },
    "popupTipNoRemoteFonts2": {
       "description": "Tooltip for the no-remote-fonts per-site switch",
-      "message": "點擊以停止封鎖此網站的遠端字體"
+      "message": "點擊以解除封鎖此網站的遠端字體"
    },
    "popupTipNoScripting1": {
       "description": "Tooltip for the no-scripting per-site switch",
@@ -885,7 +897,7 @@
    },
    "popupTipNoScripting2": {
       "description": "Tooltip for the no-scripting per-site switch",
-      "message": "點擊以使重新啟用此網站的 JavaScript "
+      "message": "點擊以重新啟用此網站的 JavaScript "
    },
    "popupTipPicker": {
       "description": "English: Enter element picker mode",
@@ -997,7 +1009,7 @@
    },
    "settingsAdvancedSynopsis": {
       "description": "Description of section controlling advanced-user settings",
-      "message": "僅適合技術使用者使用的相關功能。"
+      "message": "僅適合技術性使用者的功能"
    },
    "settingsAdvancedUserPrompt": {
       "description": "Checkbox to let user access advanced, technical features",
@@ -1069,7 +1081,7 @@
    },
    "settingsPrefetchingDisabledPrompt": {
       "description": "English: ",
-      "message": "停用預先載入模式（避免連線至已阻擋的網路要求）"
+      "message": "停用「預先取回連結」功能（避免連接至已阻擋的網路請求）"
    },
    "settingsThemeAccent0Label": {
       "description": "Label for checkbox to pick an accent color",
@@ -1081,7 +1093,7 @@
    },
    "settingsTooltipsPrompt": {
       "description": "A checkbox in the Settings pane",
-      "message": "關閉提示文字功能"
+      "message": "停用提示框"
    },
    "settingsUncloakCnamePrompt": {
       "description": "background information: https://github.com/uBlockOrigin/uBlock-issues/issues/1513",
@@ -1093,7 +1105,7 @@
    },
    "shortcutCapturePlaceholder": {
       "description": "Placeholder string for input field used to capture a keyboard shortcut",
-      "message": "輸入快捷鍵"
+      "message": "鍵入快速鍵"
    },
    "shortcutsPageName": {
       "description": "appears as tab name in dashboard",
@@ -1125,7 +1137,7 @@
    },
    "supportFindSpecificButton": {
       "description": "A clickable link in the filter issue reporter section",
-      "message": "尋找類似的報告"
+      "message": "尋找類似報告"
    },
    "supportOpenButton": {
       "description": "Text for button which open an external webpage in Support pane",
@@ -1141,7 +1153,7 @@
    },
    "supportReportSpecificButton": {
       "description": "Text for button which open an external webpage in Support pane",
-      "message": "發出新報告"
+      "message": "建立新報告"
    },
    "supportS1H": {
       "description": "Header of 'Documentation' section in Support pane",
@@ -1157,11 +1169,11 @@
    },
    "supportS2P1": {
       "description": "First paragraph of 'Questions and support' section in Support pane",
-      "message": "問題及其他類型的求助，可以在 \u003Ccode>/r/uBlockOrigin\u003C/code> subreddit 獲得協助與解答。"
+      "message": "如有問題或需要其他類型的幫助，可以在 \u003Ccode>/r/uBlockOrigin\u003C/code> subreddit 獲得協助與解答。"
    },
    "supportS3H": {
       "description": "Header of 'Filter issues' section in Support pane",
-      "message": "過濾器問題 / 網站被搞壞"
+      "message": "過濾器問題 / 網站被破壞"
    },
    "supportS3P1": {
       "description": "First paragraph of 'Filter issues' section in Support pane",
@@ -1169,11 +1181,11 @@
    },
    "supportS3P2": {
       "description": "Second paragraph of 'Filter issues' section in Support pane",
-      "message": "\u003Cb>特別注意：\u003C/b>不要把其他同性質的阻擋工具跟 uBlock Origin 混用，否則可能會造成特定網站的過濾器問題。"
+      "message": "\u003Cb>特別注意：\u003C/b>不要把其他同性質的阻擋工具跟 uBlock Origin 混用，否則可能會在特定網站造成過濾問題。"
    },
    "supportS3P3": {
       "description": "Third paragraph of 'Filter issues' section in Support pane",
-      "message": "\u003Cb>小提示：\u003C/b>請確定您的過濾器清單已經更新至最新版本。我們主要用\u003Cspan data-url=\"logger-ui.html#_\">記錄器\u003C/span>來分析過濾器相關問題。"
+      "message": "\u003Cb>小提示：\u003C/b>請確定您的過濾器清單已經更新至最新版本。我們主要用\u003Cspan data-url=\"logger-ui.html#_\">「記錄器」\u003C/span>來分析過濾器相關問題。"
    },
    "supportS4H": {
       "description": "Header of 'Bug report' section in Support pane",
@@ -1193,7 +1205,7 @@
    },
    "supportS5P2": {
       "description": "Second paragraph of 'Troubleshooting Information' section in Support pane",
-      "message": "\u003Cb>特別注意：\u003C/b>預設情況下，潛在隱私或敏感資料會被替換掉。替換過的資訊可能會加大問題解決的難度。"
+      "message": "\u003Cb>特別注意：\u003C/b>預設情況下，潛在私人或敏感的資料會被略去。略去的資訊可能會讓問題更難獲解決。"
    },
    "supportS6Checkbox1": {
       "description": "A checkbox to use for NSFW sites",
@@ -1205,11 +1217,11 @@
    },
    "supportS6P1S1": {
       "description": "A paragraph in the filter issue reporter section",
-      "message": "為了避免太多人發出重複的報告拖垮志工，請先確認是否已經有人回報過您打算報告的問題。"
+      "message": "為免給志願者帶來額外負擔，請先檢查問題有沒有被回報過，避免重複回報。"
    },
    "supportS6P2S1": {
       "description": "A paragraph in the filter issue reporter section",
-      "message": "過濾器清單每天更新。請確認您的問題無法用最新的過濾器清單解決。"
+      "message": "過濾器清單每天更新，請確保問題尚未在最新版本中解決。"
    },
    "supportS6P2S2": {
       "description": "A paragraph in the filter issue reporter section",
@@ -1217,7 +1229,7 @@
    },
    "supportS6Select1": {
       "description": "Label for widget to select type of issue",
-      "message": "這張網頁…"
+      "message": "這個網頁…"
    },
    "supportS6Select1Option0": {
       "description": "An entry in the widget used to select the type of issue",
@@ -1225,11 +1237,11 @@
    },
    "supportS6Select1Option1": {
       "description": "An entry in the widget used to select the type of issue",
-      "message": "顯示廣告或廣告移除後留下的天窗"
+      "message": "會顯示廣告或殘留空位"
    },
    "supportS6Select1Option2": {
       "description": "An entry in the widget used to select the type of issue",
-      "message": "會覆蓋內容或有其他煩人的內容"
+      "message": "含有覆蓋物或其他滋擾物"
    },
    "supportS6Select1Option3": {
       "description": "An entry in the widget used to select the type of issue",
@@ -1241,11 +1253,11 @@
    },
    "supportS6Select1Option5": {
       "description": "An entry in the widget used to select the type of issue",
-      "message": "開啟 uBlock Origin 的時候網頁運作不正常"
+      "message": "開啟 uBlock Origin 的時候運作不正常"
    },
    "supportS6Select1Option6": {
       "description": "An entry in the widget used to select the type of issue",
-      "message": "開啟不想出現的分頁或視窗"
+      "message": "會開啟不需要的分頁或視窗"
    },
    "supportS6URL": {
       "description": "Label for the URL of the page",
@@ -1259,9 +1271,13 @@
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "切換是否啟用元素隱藏過濾規則"
    },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "切換 JavaScript"
+   },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",
-      "message": "無法在瀏覽器啟動的時候正確過濾。請重新載入頁面來確保過濾正確。"
+      "message": "無法在瀏覽器啟動時正確過濾頁面。請重新載入以確保過濾正常。"
    },
    "whitelistApply": {
       "description": "English: Apply changes",
@@ -1281,7 +1297,7 @@
    },
    "whitelistPageName": {
       "description": "appears as tab name in dashboard",
-      "message": "受信任網站"
+      "message": "白名單"
    },
    "whitelistPrompt": {
       "description": "A concise description of the 'Trusted sites' pane.",

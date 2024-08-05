@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Примени промене"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Омогући моје прилагођене филтере"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Извези"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "моји-ublock-филтери_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Један филтер по реду. Филтер може бити назив хоста или филтер компатибилан са EasyList форматом. Редови са префиксом \u003Ccode>!\u003C/code> ће бити игнорисани."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "Увези и додај"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "Моји филтери"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Дозволи прилагођене филтере који захтевају поверење"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "Сметње"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Обавештења о колачићима"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "Прилагођени"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Регионални, језички"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Друштвени виџети"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Укључи/искључи естетско филтрирање"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Укључи/искључи JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

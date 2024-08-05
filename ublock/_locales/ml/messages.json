@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "മാറ്റങ്ങള്‍ അപ്ലേ ചെയ്യുക"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Enable my custom filters"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "എക്സ്പോര്‍ട്ട്‌"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "എന്‍റെ-യുബ്ലോക്ക്-സ്റ്റാറ്റിക്ക്-ഫില്‍ട്ടറുകള്‍_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "ഒരു വരിയില്‍ ഒരു ഫില്‍റ്റര്‍ എന്ന രീതിയില്‍. ഒരു ഫില്‍റ്റര്‍ എന്നത്, ഹോസ്റ്റ് നെയിം, അല്ലെങ്കില്‍ ആഡ് ബ്ലോക്ക് പ്ലസ്‌-നോട്‌ കംപാറ്റബിള്‍ ആയ ഫില്‍റ്റര്‍ എന്നിവ ആകാം. &lsquo;!&rsquo; എന്നിവയില്‍ ആരംഭിക്കുന്ന വരികള്‍ ഇഗ്നോര്‍ ചെയ്യപ്പെടും."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "ഇമ്പോര്‍ട്ടും കൂട്ടിചേര്‍ക്കലും ചെയ്യുക"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "എന്‍റെ ഫില്‍ട്ടറുകള്‍"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Allow custom filters requiring trust"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "ശല്യപ്പെടുത്തലുകൾ"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Cookie notices"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "കസ്റ്റം"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "പ്രാദേശികം, ഭാഷകള്‍"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Social widgets"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -133,7 +145,7 @@
    },
    "3pUpdating": {
       "description": "used as a tooltip for the spinner icon beside a list",
-      "message": "അപ്‌ഡേറ്റുചെയ്യുന്നു ..."
+      "message": "അപ്‌ഡേറ്റുചെയ്യുന്നു..."
    },
    "3pViewContent": {
       "description": "used as a tooltip for eye icon beside a list",
@@ -993,7 +1005,7 @@
    },
    "settingsAdvanced": {
       "description": "Section for controlling advanced-user settings",
-      "message": "Advanced"
+      "message": "വിപുലമായ ക്രമീകരണങ്ങൾ"
    },
    "settingsAdvancedSynopsis": {
       "description": "Description of section controlling advanced-user settings",
@@ -1129,7 +1141,7 @@
    },
    "supportOpenButton": {
       "description": "Text for button which open an external webpage in Support pane",
-      "message": "Open"
+      "message": "തുറക്കുക"
    },
    "supportPageName": {
       "description": "appears as tab name in dashboard",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Toggle cosmetic filtering"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Toggle JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

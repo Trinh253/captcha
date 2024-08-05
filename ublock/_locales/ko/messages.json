@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "변경사항 적용"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "내 사용자 정의 필터 활성화"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "내보내기"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "ublock-고정필터_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "한 줄에 한 개의 필터를 입력하세요. 필터는 순수 호스트이름, 혹은 Adblock Plus-호환 필터가 될 수 있습니다. 시작 부분이 &lsquo;!&rsquo; 로 시작되면 무시됩니다."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "가져오기 및 추가하기"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "내 필터"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "신뢰가 필요한 사용자 정의 필터 허용"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "골칫거리"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "쿠키 알림"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "사용자 지정"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "지역, 언어"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "소셜 위젯"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "표면 필터 토글"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "JavaScript 토글"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

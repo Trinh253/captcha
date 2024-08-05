@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "حفظ التغيرات"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "تفعيل تصفياتي المخصصة"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "تصدير"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "my-ublock-static-filters_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "فلتر واحد في كل سطر. يمكن ان يكون الفلتر رابط موقع او فلتر متوافق مع EasyList-compatible. السطور المسبوقة بـ\u003Ccode>!\u003C/code> سوف يتم تجاهلها."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "استيراد و إضافة"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "الفلاتر الخاصة بي"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "السماح بالفلاتر المخصصة التي تتطلب الثقة"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "عناصر مزعجة"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "اشعارات ملفات تعريف الارتباط"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "مخصصه"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "المناطق واللغات"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "أدوات مواقع التواصل الاجتماعية"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "تبديل تصفية مستحضرات التجميل"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "تعطيل جافا سكريبت"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

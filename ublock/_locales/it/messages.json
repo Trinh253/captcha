@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Salva i cambiamenti"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Abilita i miei filtri personalizzati"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Esporta"
@@ -10,10 +14,6 @@
    "1pExportFilename": {
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "ublock-filtri-statici-personalizzati_{{datetime}}.txt"
-   },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Un filtro per riga. Un filtro può essere un semplice hostname, o un filtro compatibile con EasyList. Ogni riga che comincia con \u003Ccode>!\u003C/code> verrà ignorata."
    },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
@@ -23,9 +23,13 @@
       "description": "appears as tab name in dashboard",
       "message": "I miei filtri"
    },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Consenti i filtri personalizzati che richiedono affidabilità"
+   },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
-      "message": "Non aggiungere filtri da fonti non attendibili."
+      "message": "Non aggiungere filtri da fonti non affidabili."
    },
    "3pApplyChanges": {
       "description": "English: Apply changes",
@@ -41,7 +45,7 @@
    },
    "3pExternalListsHint": {
       "description": "Short information about how to use the textarea to import external filter lists by URL",
-      "message": "Un URL per riga. URL non validi verranno silenziosamente ignorati."
+      "message": "Un URL per riga. Gli URL non validi saranno silenziosamente ignorati."
    },
    "3pGroupAds": {
       "description": "Filter lists section name",
@@ -50,6 +54,10 @@
    "3pGroupAnnoyances": {
       "description": "Filter lists section name",
       "message": "Elementi fastidiosi"
+   },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Avvisi sui cookie"
    },
    "3pGroupCustom": {
       "description": "Filter lists section name",
@@ -61,7 +69,7 @@
    },
    "3pGroupMalware": {
       "description": "Filter lists section name",
-      "message": "Domini con Malware"
+      "message": "Protezione dai malware, sicurezza"
    },
    "3pGroupMultipurpose": {
       "description": "Filter lists section name",
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Regioni, lingue"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Widget dei social"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -113,11 +125,11 @@
    },
    "3pParseAllABPHideFiltersInfo": {
       "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature.",
-      "message": "\nI filtri cosmetici servono a nascondere gli elementi in una pagina web che sono considerati un fastidio visivo, e che non possono essere bloccati dai motori di filtraggio basati sulla richiesta di rete."
+      "message": "\nI filtri cosmetici servono a nascondere gli elementi in una pagina web che sono considerati visivamente fastidiosi e che non possono essere bloccati dai motori di filtraggio basati sulle richieste di rete."
    },
    "3pParseAllABPHideFiltersPrompt1": {
       "description": "English: Parse and enforce Adblock+ element hiding filters.",
-      "message": "Analizza e applica filtri cosmetici"
+      "message": "Analizza e applica i filtri cosmetici"
    },
    "3pPurgeAll": {
       "description": "A button in the in the _3rd-party filters_ pane",
@@ -125,7 +137,7 @@
    },
    "3pSuspendUntilListsAreLoaded": {
       "description": "A checkbox in the 'Filter lists' pane",
-      "message": "Sospendi l'attività di rete finché non vengono caricate tutte le liste filtri"
+      "message": "Sospendi l'attività di rete finché tutte le liste dei filtri sono caricate"
    },
    "3pUpdateNow": {
       "description": "A button in the in the _3rd-party filters_ pane",
@@ -169,7 +181,7 @@
    },
    "aboutChangelog": {
       "description": "",
-      "message": "Changelog"
+      "message": "Registro delle modifiche"
    },
    "aboutCode": {
       "description": "English: Source code (GPLv3)",
@@ -193,7 +205,7 @@
    },
    "aboutPrivacyPolicy": {
       "description": "Link to privacy policy on GitHub (English)",
-      "message": "Codice di condotta sulla privacy"
+      "message": "Informativa sulla privacy"
    },
    "aboutResetDataButton": {
       "description": "English: Reset to default settings...",
@@ -205,7 +217,7 @@
    },
    "aboutRestoreDataButton": {
       "description": "English: Restore from file...",
-      "message": "Ripristina configurazione"
+      "message": "Ripristina dal file..."
    },
    "aboutRestoreDataConfirm": {
       "description": "Message asking user to confirm restore",
@@ -273,7 +285,7 @@
    },
    "contextMenuViewSource": {
       "description": "A context menu entry, to view the source code of the target resource",
-      "message": "Visualizza origine..."
+      "message": "Visualizza il codice sorgente…"
    },
    "dashboardName": {
       "description": "English: uBlock₀ — Dashboard",
@@ -313,7 +325,7 @@
    },
    "docblockedDontWarn": {
       "description": "Label for checkbox in document-blocked page",
-      "message": "Non avvisarmi più per questo sito"
+      "message": "Non avvisarmi di nuovo riguardo questo sito"
    },
    "docblockedFoundIn": {
       "description": "English: List of filter list names follows",
@@ -509,7 +521,7 @@
    },
    "loggerInfoTip": {
       "description": "Tooltip for the top-right info label in the logger page",
-      "message": "uBlock Origin Wiki: Registro"
+      "message": "Wiki di uBlock Origin: Il registro"
    },
    "loggerPauseTip": {
       "description": "Tooltip for the pause button in the logger page",
@@ -605,7 +617,7 @@
    },
    "loggerStaticFilteringFinderSentence2": {
       "description": "Message to show when a filter cannot be found in any filter lists",
-      "message": "Non è stato possibile trovare il filtro statico in nessuno degli elenchi di filtri attualmente abilitati"
+      "message": "Non è stato possibile trovare il filtro statico in alcuna delle liste dei filtri attualmente abilitate"
    },
    "loggerStaticFilteringHeader": {
       "description": "Small header to identify the static filtering section",
@@ -997,7 +1009,7 @@
    },
    "settingsAdvancedSynopsis": {
       "description": "Description of section controlling advanced-user settings",
-      "message": "Caratteristiche adatte solo ad utenti tecnici."
+      "message": "Funzionalità adatte solo per gli utenti tecnici."
    },
    "settingsAdvancedUserPrompt": {
       "description": "Checkbox to let user access advanced, technical features",
@@ -1053,7 +1065,7 @@
    },
    "settingsNoLargeMediaPrompt": {
       "description": "",
-      "message": "Blocca elementi multimediali maggiori di {{input}} KB"
+      "message": "Blocca gli elementi multimediali di dimensioni maggiori di {{input}} KB"
    },
    "settingsNoRemoteFontsPrompt": {
       "description": "",
@@ -1169,7 +1181,7 @@
    },
    "supportS3P2": {
       "description": "Second paragraph of 'Filter issues' section in Support pane",
-      "message": "\u003Cb>Importante:\u003C/b> Evita di utilizzare altre estensioni simili insieme a uBlock Origin, poiché ciò potrebbe causare problemi di filtro su specifici siti."
+      "message": "\u003Cb>Importante:\u003C/b> Evita di utilizzare altre estensioni simili insieme a uBlock Origin, poiché ciò potrebbe causare problemi di filtraggio su specifici siti."
    },
    "supportS3P3": {
       "description": "Third paragraph of 'Filter issues' section in Support pane",
@@ -1189,7 +1201,7 @@
    },
    "supportS5P1": {
       "description": "First paragraph of 'Troubleshooting Information' section in Support pane",
-      "message": "Di seguito sono riportate le informazioni tecniche che potrebbero essere utili quando i volontari stanno cercando di aiutarti a risolvere un problema."
+      "message": "Di seguito sono riportate informazioni tecniche che potrebbero essere utili quando i volontari cercheranno di aiutarti a risolvere un problema."
    },
    "supportS5P2": {
       "description": "Second paragraph of 'Troubleshooting Information' section in Support pane",
@@ -1257,11 +1269,15 @@
    },
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
-      "message": "Attiva/Disattiva filtri cosmetici"
+      "message": "Attiva/Disattiva il filtraggio cosmetico"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Attiva o disattiva JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",
-      "message": "Non è stato possibile filtrare correttamente all'avvio del browser.\nRicaricare la pagina per garantire un filtraggio corretto"
+      "message": "Non è stato effettuato correttamente il filtraggio all'avvio del browser.\nRicarica la pagina per garantire un filtraggio adeguato."
    },
    "whitelistApply": {
       "description": "English: Apply changes",
@@ -1281,7 +1297,7 @@
    },
    "whitelistPageName": {
       "description": "appears as tab name in dashboard",
-      "message": "Whitelist"
+      "message": "Siti affidabili"
    },
    "whitelistPrompt": {
       "description": "A concise description of the 'Trusted sites' pane.",

@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "应用更改"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "启用自定义过滤规则"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "导出…"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "my-ublock-static-filters_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "一行一条过滤规则。每条规则可以是一个普通的主机名或者是一条与 EasyList 兼容的过滤规则。以 \u003Ccode>!\u003C/code> 开头的行将被忽略。"
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "导入并添加…"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "自定义静态规则"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "允许需信任的自定义过滤规则"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "骚扰"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Cookie提醒"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "自定义"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "区域、语言"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "社交网络小部件"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -1149,7 +1161,7 @@
    },
    "supportS1P1": {
       "description": "First paragraph of 'Documentation' section in Support pane",
-      "message": "请至 \u003Ccode>uBlock/wiki\u003C/code> 参阅 uBlock Origin 的所有功用以及使用说明。"
+      "message": "请至 \u003Ccode>uBlock/wiki\u003C/code> 参阅 uBlock Origin 的所有功能以及使用说明。"
    },
    "supportS2H": {
       "description": "Header of 'Questions and support' section in Support pane",
@@ -1161,7 +1173,7 @@
    },
    "supportS3H": {
       "description": "Header of 'Filter issues' section in Support pane",
-      "message": "过滤规则或者网页的问题"
+      "message": "过滤规则问题/网页被损坏"
    },
    "supportS3P1": {
       "description": "First paragraph of 'Filter issues' section in Support pane",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "是否应用元素过滤规则"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "JavaScript 开关"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

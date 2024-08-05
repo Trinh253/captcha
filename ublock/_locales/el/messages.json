@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Εφαρμογή αλλαγών"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Ενεργοποίηση των προσαρμοσμένων φίλτρων μου"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Εξαγωγή"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "τα-στατικά-ublock-φίλτρα-μου_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Ένα φίλτρο ανά γραμμή. Ένα φίλτρο μπορεί να είναι ένα απλό όνομα κεντρικού υπολογιστή ή ένα φίλτρο συμβατό με την EasyList. Οι γραμμές με πρόθεμα \u003Ccode>!\u003C/code> θα παραβλέπονται."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "Εισαγωγή και προσάρτηση"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "Τα φίλτρα μου"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Επιτρέψτε προσαρμοσμένα φίλτρα που απαιτούν εμπιστοσύνη"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "Ενοχλήσεις"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Ειδοποιήσεις για cookies"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "Προσαρμοσμένη"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Περιοχές, γλώσσες"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Γραφικά στοιχεία κοινωνικής δικτύωσης"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Εναλλαγή διακοσμητικού φιλτραρίσματος"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Εναλλαγή JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

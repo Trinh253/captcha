@@ -3,29 +3,33 @@
       "description": "English: Apply changes",
       "message": "החל שינויים"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "אפשור מסננים מותאמים אישית"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
-      "message": "ייצוא"
+      "message": "ייצוא…"
    },
    "1pExportFilename": {
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "my-ublock-static-filters_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "מסנן אחד לכל שורה. המסנן יכול להיות דומיין פשוט, או מסנן התואם ל- EasyList. שורות עם קידומת \u003Ccode>!\u003C/code> לא יפורשו."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
-      "message": "ייבא וצרף"
+      "message": "ייבא וצרף…"
    },
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "המסננים שלי"
    },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "אפשור למסננים מותאמים אישית לדרוש אמון"
+   },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
-      "message": "Do not add filters from untrusted sources."
+      "message": "אל תוסיף מסננים ממקורות לא מהימנים."
    },
    "3pApplyChanges": {
       "description": "English: Apply changes",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "מטרדים"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "הודעות בקשר לעוגיות"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "מותאם אישית"
@@ -61,7 +69,7 @@
    },
    "3pGroupMalware": {
       "description": "Filter lists section name",
-      "message": "ביטחון והגנה מפני נוזקה"
+      "message": "הגנה מפני נוזקות, אבטחה"
    },
    "3pGroupMultipurpose": {
       "description": "Filter lists section name",
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "אזורים, שפות"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "יישומונים חברתיים"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -937,7 +949,7 @@
    },
    "rulesExport": {
       "description": "Button in the 'My rules' pane",
-      "message": "ייצא לקובץ..."
+      "message": "ייצא לקובץ…"
    },
    "rulesFormatHint": {
       "description": "English: dynamic rule syntax and full documentation.",
@@ -1259,9 +1271,13 @@
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "הפעל/כבה מסננים קוסמטיים"
    },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "מיתוג JavaScript"
+   },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",
-      "message": "לא ניתן היה לסנן כראוי בעת הפעלת הדפדפן. טען מחדש את הדף כדי להבטיח סינון מתאים."
+      "message": "לא ניתן היה לסנן כראוי בעת הפעלת הדפדפן. נא לטעון את העמוד מחדש להבטחת סינון ראוי."
    },
    "whitelistApply": {
       "description": "English: Apply changes",
@@ -1269,7 +1285,7 @@
    },
    "whitelistExport": {
       "description": "Button in the 'Trusted sites' pane",
-      "message": "ייצוא"
+      "message": "ייצוא…"
    },
    "whitelistExportFilename": {
       "description": "The default filename to use for import/export purpose",
@@ -1277,7 +1293,7 @@
    },
    "whitelistImport": {
       "description": "Button in the 'Trusted sites' pane",
-      "message": "ייבא וצרף"
+      "message": "ייבא וצרף…"
    },
    "whitelistPageName": {
       "description": "appears as tab name in dashboard",

@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Appliquer"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Activer mes filtres personnalisés"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Exporter"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "mes-filtres-statiques-ublock_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Une règle par ligne. Une règle peut être un simple nom d'hôte, ou encore une règle compatible EasyList. Les lignes débutant par \u003Ccode>!\u003C/code> seront ignorées."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "Importer"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "Mes filtres"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Faire confiance aux filtres personnalisés"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "Nuisances"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Bannières de cookie"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "Vos propres listes"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Régions, langues"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Widgets de réseaux sociaux"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Commuter le filtrage esthétique"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Commuter JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

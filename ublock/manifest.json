@@ -30,6 +30,9 @@
       },
       "toggle-cosmetic-filtering": {
          "description": "__MSG_toggleCosmeticFiltering__"
+      },
+      "toggle-javascript": {
+         "description": "__MSG_toggleJavascript__"
       }
    },
    "content_scripts": [ {
@@ -41,7 +44,7 @@
    }, {
       "all_frames": false,
       "js": [ "/js/scriptlets/subscriber.js" ],
-      "matches": [ "https://easylist.to/*", "https://*.fanboy.co.nz/*", "https://filterlists.com/*", "https://forums.lanik.us/*", "https://github.com/*", "https://*.github.io/*", "https://*.letsblock.it/*" ],
+      "matches": [ "https://easylist.to/*", "https://*.fanboy.co.nz/*", "https://filterlists.com/*", "https://forums.lanik.us/*", "https://github.com/*", "https://*.github.io/*" ],
       "run_at": "document_idle"
    }, {
       "all_frames": false,
@@ -67,12 +70,12 @@
       "open_in_tab": true,
       "page": "dashboard.html"
    },
-   "permissions": [ "contextMenus", "privacy", "storage", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "permissions": [ "alarms", "contextMenus", "privacy", "storage", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
    "short_name": "uBlock₀",
    "storage": {
       "managed_schema": "managed_storage.json"
    },
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.54.0",
+   "version": "1.59.0",
    "web_accessible_resources": [ "/web_accessible_resources/*" ]
 }

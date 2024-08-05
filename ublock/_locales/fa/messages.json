@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "اعمال تغییرات"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "فعال‌سازی پالایه‌های سفارشی من"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "خروجي گرفتن"
@@ -10,10 +14,6 @@
    "1pExportFilename": {
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "my-ublock-static-filters_{{datetime}}.txt"
-   },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "یک فیلتر در هر خط. یک فیلتر می تواند آدرس هاست ساده یا فیلتر سازگار با Adblock plus باشد. خطوط با پیشوند &lsquo;!&rsquo; نادیده گرفته می شوند."
    },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
@@ -23,9 +23,13 @@
       "description": "appears as tab name in dashboard",
       "message": "فیلترهای من"
    },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "اجازه‌دهی به پالایه‌های سفارشی نیازمند اعتمادسازی "
+   },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
-      "message": "Do not add filters from untrusted sources."
+      "message": "پالایه‌ها از منابع نامعتبر افزوده نشود."
    },
    "3pApplyChanges": {
       "description": "English: Apply changes",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "مزاحم‌ها"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "اطلاعیه‌های کلوچک"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "سفارشی"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "مناطق، زبانها"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Social widgets"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -273,7 +285,7 @@
    },
    "contextMenuViewSource": {
       "description": "A context menu entry, to view the source code of the target resource",
-      "message": "View source code…"
+      "message": "مشاهده کد منبع…"
    },
    "dashboardName": {
       "description": "English: uBlock₀ — Dashboard",
@@ -301,7 +313,7 @@
    },
    "docblockedDisable": {
       "description": "Button text to navigate to the blocked page",
-      "message": "Proceed"
+      "message": "ادامه"
    },
    "docblockedDisablePermanent": {
       "description": "English: Permanently",
@@ -313,7 +325,7 @@
    },
    "docblockedDontWarn": {
       "description": "Label for checkbox in document-blocked page",
-      "message": "Don't warn me again about this site"
+      "message": "دیگر در مورد این تارنما هشداری به من داده نشود"
    },
    "docblockedFoundIn": {
       "description": "English: List of filter list names follows",
@@ -337,7 +349,7 @@
    },
    "docblockedTitle": {
       "description": "Used as a title for the document-blocked page",
-      "message": "Page blocked"
+      "message": "صفحه مسدود شده است"
    },
    "dummy": {
       "description": "so we dont need to deal with comma for last entry",
@@ -413,7 +425,7 @@
    },
    "linterMainReport": {
       "description": "Summary of number of errors as reported by the linter ",
-      "message": "Errors: {{count}}"
+      "message": "خطا: {{count}}"
    },
    "logAll": {
       "description": "Appears in the logger's tab selector",
@@ -705,7 +717,7 @@
    },
    "popup3pFrameFilter": {
       "description": "Appears as an option to filter out firewall rows",
-      "message": "frame"
+      "message": "چارچوب"
    },
    "popup3pFrameRulePrompt": {
       "description": "",
@@ -1209,7 +1221,7 @@
    },
    "supportS6P2S1": {
       "description": "A paragraph in the filter issue reporter section",
-      "message": "Filter lists are updated daily. Be sure your issue has not already been addressed in the most recent filter lists."
+      "message": "فهرست‌های پالایش روزانه به‌روز می‌شوند. مطمئن شوید که مشکل شما پیشتر در فهرست‌های پالایش اخیر بررسی نشده باشد."
    },
    "supportS6P2S2": {
       "description": "A paragraph in the filter issue reporter section",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Toggle cosmetic filtering"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "تغییر وضعیت جاوا اسکریپت"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

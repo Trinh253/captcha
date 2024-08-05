@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Primijenite promjene"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Omogući moje prilagođene filtere"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Izvezi"
@@ -10,10 +14,6 @@
    "1pExportFilename": {
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "moji-ublock-statični-filteri_{{datetime}}.txt"
-   },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Jedan filter po redu. Filter može biti običan naziv domaćina/hosta ili filter kompatibilan sa EasyList-om. Redovi sa prefiksom \u003Ccode>!\u003C/code> će biti ignorisani."
    },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
@@ -23,9 +23,13 @@
       "description": "appears as tab name in dashboard",
       "message": "Moji filteri"
    },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Dozvolite prilagođene filtere koji zahtijevaju povjerenje"
+   },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
-      "message": "Do not add filters from untrusted sources."
+      "message": "Nemojte dodavati filtere iz nepouzdanih izvora."
    },
    "3pApplyChanges": {
       "description": "English: Apply changes",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "Smetnje"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Obavještenja o kolačićima"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "Prilagođeno"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Regije, jezici"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Društveni widgeti"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -273,7 +285,7 @@
    },
    "contextMenuViewSource": {
       "description": "A context menu entry, to view the source code of the target resource",
-      "message": "View source code…"
+      "message": "Pogledaj izvorni kod…"
    },
    "dashboardName": {
       "description": "English: uBlock₀ — Dashboard",
@@ -413,7 +425,7 @@
    },
    "linterMainReport": {
       "description": "Summary of number of errors as reported by the linter ",
-      "message": "Errors: {{count}}"
+      "message": "Greške: {{count}}"
    },
    "logAll": {
       "description": "Appears in the logger's tab selector",
@@ -705,7 +717,7 @@
    },
    "popup3pFrameFilter": {
       "description": "Appears as an option to filter out firewall rows",
-      "message": "frame"
+      "message": "okvir"
    },
    "popup3pFrameRulePrompt": {
       "description": "",
@@ -717,7 +729,7 @@
    },
    "popup3pScriptFilter": {
       "description": "Appears as an option to filter out firewall rows",
-      "message": "script"
+      "message": "skripta"
    },
    "popup3pScriptRulePrompt": {
       "description": "",
@@ -1209,11 +1221,11 @@
    },
    "supportS6P2S1": {
       "description": "A paragraph in the filter issue reporter section",
-      "message": "Filter lists are updated daily. Be sure your issue has not already been addressed in the most recent filter lists."
+      "message": "Liste filtera se ažuriraju svakodnevno. Budite sigurni da vaš problem nije već riješen na najnovijim listama filtera."
    },
    "supportS6P2S2": {
       "description": "A paragraph in the filter issue reporter section",
-      "message": "Verify that the issue still exists after reloading the problematic webpage."
+      "message": "Provjerite postoji li problem i nakon ponovnog učitavanja problematične web stranice."
    },
    "supportS6Select1": {
       "description": "Label for widget to select type of issue",
@@ -1259,9 +1271,13 @@
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Uključi/isključi estetsko filtriranje"
    },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Uključi JavaScript"
+   },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",
-      "message": "Could not filter properly at browser launch. Reload the page to ensure proper filtering."
+      "message": "Nije moguće ispravno filtrirati pri pokretanju preglednika. Ponovo učitajte stranicu kako biste osigurali pravilno filtriranje."
    },
    "whitelistApply": {
       "description": "English: Apply changes",

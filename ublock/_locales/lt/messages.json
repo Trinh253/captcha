@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Taikyti pakeitimus"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Enable my custom filters"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Eksportuoti"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "mano-ublock-statiniai-filtrai_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Vienas filtras eilutėje. Filtras gali būti paprastas serverio adresas, arba su Adblock Plus suderinamas filtras. Eilutės pradėtos \u003Ccode>!\u003C/code> bus ignoruotos."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "Importuoti ir papildyti"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "Mano filtrai"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Allow custom filters requiring trust"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "Erzinimas"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Cookie notices"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "Adaptuoti"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Regionai, kalbos"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Social widgets"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -301,7 +313,7 @@
    },
    "docblockedDisable": {
       "description": "Button text to navigate to the blocked page",
-      "message": "Proceed"
+      "message": "Tęsti"
    },
    "docblockedDisablePermanent": {
       "description": "English: Permanently",
@@ -405,7 +417,7 @@
    },
    "genericSelectAll": {
       "description": "Label for buttons used to select all text in editor",
-      "message": "Select all"
+      "message": "Žymėti viską"
    },
    "genericSubmit": {
       "description": "for generic 'Submit' buttons",
@@ -413,7 +425,7 @@
    },
    "linterMainReport": {
       "description": "Summary of number of errors as reported by the linter ",
-      "message": "Errors: {{count}}"
+      "message": "Klaidos: {{count}}"
    },
    "logAll": {
       "description": "Appears in the logger's tab selector",
@@ -893,7 +905,7 @@
    },
    "popupTipReport": {
       "description": "Tooltip used for the 'chat' icon in the panel",
-      "message": "Report an issue on this website"
+      "message": "Pranešti apie problemą šioje svetainėje"
    },
    "popupTipRevertRules": {
       "description": "Tooltip when hovering over the eraser in the dynamic filtering pane.",
@@ -1125,7 +1137,7 @@
    },
    "supportFindSpecificButton": {
       "description": "A clickable link in the filter issue reporter section",
-      "message": "Find similar reports"
+      "message": "Rasti panašias ataskaitas"
    },
    "supportOpenButton": {
       "description": "Text for button which open an external webpage in Support pane",
@@ -1141,7 +1153,7 @@
    },
    "supportReportSpecificButton": {
       "description": "Text for button which open an external webpage in Support pane",
-      "message": "Create new report"
+      "message": "Sukurti naują ataskaitą"
    },
    "supportS1H": {
       "description": "Header of 'Documentation' section in Support pane",
@@ -1153,7 +1165,7 @@
    },
    "supportS2H": {
       "description": "Header of 'Questions and support' section in Support pane",
-      "message": "Questions and support"
+      "message": "Klausimai ir pagalba"
    },
    "supportS2P1": {
       "description": "First paragraph of 'Questions and support' section in Support pane",
@@ -1177,7 +1189,7 @@
    },
    "supportS4H": {
       "description": "Header of 'Bug report' section in Support pane",
-      "message": "Bug report"
+      "message": "Klaidos pranešimas"
    },
    "supportS4P1": {
       "description": "First paragraph of 'Bug report' section in Support pane",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Toggle cosmetic filtering"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Toggle JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

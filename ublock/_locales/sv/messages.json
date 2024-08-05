@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Verkställ ändringar"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Aktivera mina anpassade filter"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Exportera…"
@@ -10,10 +14,6 @@
    "1pExportFilename": {
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "mina-ublock-statiska-filter_{{datetime}}.txt"
-   },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Ett filter per rad. Ett filter kan vara ett vanligt värdnamn eller ett EasyList-kompatibelt filter. Rader med prefixet \u003Ccode>!\u003C/code> ignoreras."
    },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
@@ -23,9 +23,13 @@
       "description": "appears as tab name in dashboard",
       "message": "Mina filter"
    },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Att tillåta anpassade filter kräver tillit"
+   },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
-      "message": "Lägg inte till filter från opålitliga källor."
+      "message": "Lägg inte till filter från obetrodda källor."
    },
    "3pApplyChanges": {
       "description": "English: Apply changes",
@@ -51,13 +55,17 @@
       "description": "Filter lists section name",
       "message": "Störande"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Cookie-meddelanden"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
-      "message": "Anpassad"
+      "message": "Anpassade"
    },
    "3pGroupDefault": {
       "description": "Filter lists section name",
-      "message": "Inbyggd"
+      "message": "Inbyggda"
    },
    "3pGroupMalware": {
       "description": "Filter lists section name",
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Regioner, språk"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Sociala widgets"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -421,7 +433,7 @@
    },
    "logBehindTheScene": {
       "description": "Pretty name for behind-the-scene network requests",
-      "message": "Bakom kulissen"
+      "message": "Tabless"
    },
    "logFilterPrompt": {
       "description": "Placeholder string for logger output filtering input field",
@@ -441,7 +453,7 @@
    },
    "logRequestsHeaderURL": {
       "description": "English: URL",
-      "message": "URL"
+      "message": "Webbadress"
    },
    "loggerClearTip": {
       "description": "Tooltip for the eraser in the logger page; used to blank the content of the logger",
@@ -613,7 +625,7 @@
    },
    "loggerStaticFilteringSentence": {
       "description": "Used in the static filtering wizard",
-      "message": "{{action}} nätverksförfrågningar av {{type}} {{br}}vilkas webbadresser matchar {{url}} {{br}}och som kommer från {{origin}},{{br}}{{importance}} det finns ett matchande undantagsfilter."
+      "message": "{{action}} nätverksförfrågningar av {{type}} {{br}}vilken webbadress matchar {{url}} {{br}}och som kommer från {{origin}},{{br}}{{importance}} det finns ett matchande undantagsfilter."
    },
    "loggerStaticFilteringSentencePartAllow": {
       "description": "Used in the static filtering wizard",
@@ -745,7 +757,7 @@
    },
    "popupBlockedSinceInstall_v2": {
       "description": "For the new mobile-friendly popup design",
-      "message": "Blockerat sedan installationen"
+      "message": "Blockerat sedan installation"
    },
    "popupBlockedStats": {
       "description": "Example: 15 (13%)",
@@ -1165,7 +1177,7 @@
    },
    "supportS3P1": {
       "description": "First paragraph of 'Filter issues' section in Support pane",
-      "message": "Rapportera filterproblem med specifika webbplatser till \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> problemhanteringssystemet\u003C/span>. \u003Cu>Kräver ett GitHub-konto.\u003C/u>"
+      "message": "Rapportera filterproblem med specifika webbplatser till problemhanteringssystemet \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code>\u003C/span>. \u003Cu>Kräver ett GitHub-konto.\u003C/u>"
    },
    "supportS3P2": {
       "description": "Second paragraph of 'Filter issues' section in Support pane",
@@ -1181,7 +1193,7 @@
    },
    "supportS4P1": {
       "description": "First paragraph of 'Bug report' section in Support pane",
-      "message": "Rapportera problem med själva uBlock Origin till \u003Cspan data-url=\"https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uBlock-issue\u003C/code> ärendehanteringssystemet\u003C/span>. \u003Cu>Kräver ett GitHub-konto.\u003C/u>"
+      "message": "Rapportera problem med själva uBlock Origin till problemhanteringssystemet \u003Cspan data-url=\"https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uBlock-issue\u003C/code>\u003C/span>. \u003Cu>Kräver ett GitHub-konto.\u003C/u>"
    },
    "supportS5H": {
       "description": "Header of 'Troubleshooting Information' section in Support pane",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Växla kosmetisk filtrering"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Växla JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Použiť zmeny"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Povoliť moje vlastné filtre"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Exportovať"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "ublock-moje-statické-filtre_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Jeden filter na riadok. Filter môže byť jednoduchý názov hostiteľa alebo filter kompatibilný s Adblock Plus. Riadky začínajúce s \u003Ccode>!\u003C/code> budú ignorované."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "Importovať a pripojiť"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "Moje filtre"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Povoliť vlastné filtre vyžadujúce dôveru"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "Obťažujúce"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Oznámenie o cookies"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "Vlastné"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Regióny, jazyky"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Sociálne widgety"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -1137,7 +1149,7 @@
    },
    "supportRedact": {
       "description": "Text for 'Redact' button",
-      "message": "Upravovať"
+      "message": "Upraviť"
    },
    "supportReportSpecificButton": {
       "description": "Text for button which open an external webpage in Support pane",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Prepnúť kozmetické filtrovanie"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Prepnúť JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

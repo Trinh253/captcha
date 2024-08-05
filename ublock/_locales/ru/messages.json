@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Применить изменения"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Включить мои пользовательские фильтры"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Экспортировать…"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "my-ublock-static-filters_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Одно правило на строку. Правилом может быть имя сайта, или EasyList-совместимый фильтр. Строки, начинающиеся с \u003Ccode>!\u003C/code>, будут проигнорированы."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "Импортировать и добавить…"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "Мои фильтры"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Разрешить пользовательские фильтры, требующие доверия"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "Раздражающие элементы"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Уведомления о файлах куки"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "Пользовательские"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Регионы, языки"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Виджеты соцсетей"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Вкл/Выкл косметическую фильтрацию"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Вкл/Выкл JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

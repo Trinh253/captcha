@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "Módosítások alkalmazása"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Egyedi szűrőim engedélyezése"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "Exportál"
@@ -11,10 +15,6 @@
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "ublock-statikus-szabalyaim_{{datetime}}.txt"
    },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "Soronként egy szűrő. A szűrő lehet egy hostnév, vagy egy Adblock Plus kompatibilis szűrő.\nA \u003Ccode>!\u003C/code> kezdetű sorok figyelmen kívül maradnak."
-   },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
       "message": "Importál és hozzáad"
@@ -22,6 +22,10 @@
    "1pPageName": {
       "description": "appears as tab name in dashboard",
       "message": "Saját szűrők"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Megbízhatóságot igénylő egyéni szűrők engedélyezése"
    },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "Kellemetlenségek"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Sütiértesítések"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "Saját"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "Régiók, nyelvek"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Közösségi widgetek"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Kozmetikai szűrés kapcsolása"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Javascript ki/bekapcsolása"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",

@@ -3,6 +3,10 @@
       "description": "English: Apply changes",
       "message": "మార్పులను భద్రపరచు"
    },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Enable my custom filters"
+   },
    "1pExport": {
       "description": "Button in the 'My filters' pane",
       "message": "ఎగుమతి చేయు"
@@ -10,10 +14,6 @@
    "1pExportFilename": {
       "description": "English: my-ublock-static-filters_{{datetime}}.txt",
       "message": "my-ublock-static-filters_{{datetime}}.txt"
-   },
-   "1pFormatHint": {
-      "description": "Short information about how to create custom filters",
-      "message": "ఒక్కో పంక్తిలో ఒక ఫిల్టర్ నమోదు. పేర్కొనబడే ఫిల్టర్, కేవలం హోస్టుపేరు లేదా Adblock Plusకి అనువైన ఫిల్టర్ కావొచ్చు. పంక్తిలో మొదట &lsquo;!&rsquo; ఉన్నచో ఆ పంక్తి పరిగణలోకి తీసుకొబడదు."
    },
    "1pImport": {
       "description": "Button in the 'My filters' pane",
@@ -23,9 +23,13 @@
       "description": "appears as tab name in dashboard",
       "message": "నా వడపోతలు"
    },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Allow custom filters requiring trust"
+   },
    "1pTrustWarning": {
       "description": "Warning against copy-pasting filters from random sources",
-      "message": "Do not add filters from untrusted sources."
+      "message": "అవిశ్వసనీయ మూలాల నుండి ఫిల్టర్‌లను జోడించవద్దు."
    },
    "3pApplyChanges": {
       "description": "English: Apply changes",
@@ -51,6 +55,10 @@
       "description": "Filter lists section name",
       "message": "అసౌకర్యాల పట్టిక"
    },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Cookie notices"
+   },
    "3pGroupCustom": {
       "description": "Filter lists section name",
       "message": "సొంత నిర్దేషణ"
@@ -74,6 +82,10 @@
    "3pGroupRegions": {
       "description": "Filter lists section name",
       "message": "ప్రాంతాలు, భాషలు"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Social widgets"
    },
    "3pIgnoreGenericCosmeticFilters": {
       "description": "This will cause uBO to ignore all generic cosmetic filters.",
@@ -125,7 +137,7 @@
    },
    "3pSuspendUntilListsAreLoaded": {
       "description": "A checkbox in the 'Filter lists' pane",
-      "message": "Suspend network activity until all filter lists are loaded"
+      "message": "అన్ని ఫిల్టర్ జాబితాలు లోడ్ అయ్యే వరకు నెట్‌వర్క్ కార్యాచరణను నిలిపివేయండి"
    },
    "3pUpdateNow": {
       "description": "A button in the in the _3rd-party filters_ pane",
@@ -337,7 +349,7 @@
    },
    "docblockedTitle": {
       "description": "Used as a title for the document-blocked page",
-      "message": "Page blocked"
+      "message": "పేజీ బ్లాక్ చేయబడింది"
    },
    "dummy": {
       "description": "so we dont need to deal with comma for last entry",
@@ -705,7 +717,7 @@
    },
    "popup3pFrameFilter": {
       "description": "Appears as an option to filter out firewall rows",
-      "message": "frame"
+      "message": "ఫ్రేమ్"
    },
    "popup3pFrameRulePrompt": {
       "description": "",
@@ -717,7 +729,7 @@
    },
    "popup3pScriptFilter": {
       "description": "Appears as an option to filter out firewall rows",
-      "message": "script"
+      "message": "స్క్రిప్ట్"
    },
    "popup3pScriptRulePrompt": {
       "description": "",
@@ -893,7 +905,7 @@
    },
    "popupTipReport": {
       "description": "Tooltip used for the 'chat' icon in the panel",
-      "message": "Report an issue on this website"
+      "message": "ఈ వెబ్‌సైట్‌లో సమస్యను నివేదించండి"
    },
    "popupTipRevertRules": {
       "description": "Tooltip when hovering over the eraser in the dynamic filtering pane.",
@@ -997,7 +1009,7 @@
    },
    "settingsAdvancedSynopsis": {
       "description": "Description of section controlling advanced-user settings",
-      "message": "Features suitable only for technical users"
+      "message": "సాంకేతిక వినియోగదారులకు మాత్రమే సరిపోయే ఫీచర్లు"
    },
    "settingsAdvancedUserPrompt": {
       "description": "Checkbox to let user access advanced, technical features",
@@ -1009,7 +1021,7 @@
    },
    "settingsAppearance": {
       "description": "Section for controlling user interface appearance",
-      "message": "Appearance"
+      "message": "స్వరూపం"
    },
    "settingsCloudStorageEnabledPrompt": {
       "description": "",
@@ -1073,7 +1085,7 @@
    },
    "settingsThemeAccent0Label": {
       "description": "Label for checkbox to pick an accent color",
-      "message": "Custom accent color"
+      "message": "అనుకూల యాస రంగు"
    },
    "settingsThemeLabel": {
       "description": "Label for checkbox to enable a custom dark theme",
@@ -1125,7 +1137,7 @@
    },
    "supportFindSpecificButton": {
       "description": "A clickable link in the filter issue reporter section",
-      "message": "Find similar reports"
+      "message": "సారూప్య నివేదికలను కనుగొనండి"
    },
    "supportOpenButton": {
       "description": "Text for button which open an external webpage in Support pane",
@@ -1133,7 +1145,7 @@
    },
    "supportPageName": {
       "description": "appears as tab name in dashboard",
-      "message": "Support"
+      "message": "సహాయం"
    },
    "supportRedact": {
       "description": "Text for 'Redact' button",
@@ -1141,19 +1153,19 @@
    },
    "supportReportSpecificButton": {
       "description": "Text for button which open an external webpage in Support pane",
-      "message": "Create new report"
+      "message": "కొత్త నివేదికను సృష్టించండి"
    },
    "supportS1H": {
       "description": "Header of 'Documentation' section in Support pane",
-      "message": "Documentation"
+      "message": "డాక్యుమెంటేషన్"
    },
    "supportS1P1": {
       "description": "First paragraph of 'Documentation' section in Support pane",
-      "message": "Read the documentation at \u003Ccode>uBlock/wiki\u003C/code> to learn about all of uBlock Origin's features."
+      "message": "uBlock ఆరిజిన్ యొక్క అన్ని లక్షణాల గురించి తెలుసుకోవడానికి \u003Ccode>uBlock/wiki\u003C/code> వద్ద డాక్యుమెంటేషన్ చదవండి."
    },
    "supportS2H": {
       "description": "Header of 'Questions and support' section in Support pane",
-      "message": "Questions and support"
+      "message": "ప్రశ్నలు మరియు మద్దతు"
    },
    "supportS2P1": {
       "description": "First paragraph of 'Questions and support' section in Support pane",
@@ -1197,7 +1209,7 @@
    },
    "supportS6Checkbox1": {
       "description": "A checkbox to use for NSFW sites",
-      "message": "Label the web page as “NSFW” (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">“Not Safe For Work”\u003C/a>)"
+      "message": "వెబ్ పేజీని “NSFW”గా లేబుల్ చేయండి (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">“పని కోసం సురక్షితం కాదు”\u003C/a>)"
    },
    "supportS6H": {
       "description": "Header of 'Report a filter issue' section in Support pane",
@@ -1245,7 +1257,7 @@
    },
    "supportS6Select1Option6": {
       "description": "An entry in the widget used to select the type of issue",
-      "message": "Opens unwanted tabs or windows"
+      "message": "అనవసరమైన ట్యాబ్‌లు లేదా విండోలను తెరుస్తుంది"
    },
    "supportS6URL": {
       "description": "Label for the URL of the page",
@@ -1258,6 +1270,10 @@
    "toggleCosmeticFiltering": {
       "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
       "message": "Toggle cosmetic filtering"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "Toggle JavaScript"
    },
    "unprocessedRequestTooltip": {
       "description": "A warning which will appear in the popup panel if needed",
