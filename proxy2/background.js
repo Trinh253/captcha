@@ -4,8 +4,8 @@
     rules: {
       singleProxy: {
         scheme: "http",
-        host: "157.66.157.35",
-        port: parseInt("64400")
+        host: "198.46.137.184",
+        port: parseInt("6388")
       },
     bypassList: [""]
     }
@@ -14,8 +14,8 @@ chrome.proxy.settings.set({value: config, scope: "regular"}, function() {});
 function callbackFn(details) {
     return {
         authCredentials: {
-            username: "root",
-            password: "uFtZ9m4E"
+            username: "xkvsioxn",
+            password: "Ah3kqu6Uwvjb"
         }
     };
 }
