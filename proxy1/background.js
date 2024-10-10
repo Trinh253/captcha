@@ -4,8 +4,8 @@
     rules: {
       singleProxy: {
         scheme: "http",
-        host: "103.167.91.199",
-        port: parseInt("59290")
+        host: "103.180.152.32",
+        port: parseInt("4222")
       },
     bypassList: [""]
     }
@@ -14,8 +14,8 @@ chrome.proxy.settings.set({value: config, scope: "regular"}, function() {});
 function callbackFn(details) {
     return {
         authCredentials: {
-            username: "vwoj5y1a",
-            password: "vWOJ5y1a"
+            username: "GVN3GG4654",
+            password: "0QADMkQA"
         }
     };
 }
@@ -24,4 +24,5 @@ chrome.webRequest.onAuthRequired.addListener(
         {urls: ["<all_urls>"]},
         ['blocking']
 );
-    
+
+
