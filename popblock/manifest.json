@@ -17,6 +17,9 @@
       "deny-last-request": {
          "description": "__MSG_context_item3__"
       },
+      "focus-last-request": {
+         "description": "__MSG_context_item6__"
+      },
       "redirect-last-request": {
          "description": "__MSG_context_item5__"
       }
@@ -43,7 +46,7 @@
    },
    "permissions": [ "storage", "scripting" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.8.5",
+   "version": "0.8.8",
    "web_accessible_resources": [ {
       "matches": [ "*://*/*" ],
       "resources": [ "/data/ui/index.html" ]

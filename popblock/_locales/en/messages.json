@@ -29,6 +29,9 @@
    "context_item5": {
       "message": "Redirect the current tab to the last popup request"
    },
+   "context_item6": {
+      "message": "Move focus from page to the last popup request"
+   },
    "options_export": {
       "message": "Export Preferences"
    },
@@ -103,6 +106,9 @@
    },
    "options_item34": {
       "message": "Mute notifications on these hostnames:"
+   },
+   "options_item35": {
+      "message": "Apply the following custom CSS rules to the popup interface:"
    },
    "options_item36": {
       "message": "Enable aggressive static IFrame detection"

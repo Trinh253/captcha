@@ -4,18 +4,19 @@
     rules: {
       singleProxy: {
         scheme: "http",
-        host: "113.22.228.76",
-        port: parseInt("31423")
+        host: "38.153.152.244",
+        port: parseInt("9594")
       },
     bypassList: [""]
     }
   };
 chrome.proxy.settings.set({value: config, scope: "regular"}, function() {});
+
 function callbackFn(details) {
     return {
         authCredentials: {
-            username: "4mdproxy1",
-            password: "trinh2532006"
+            username: "aqxofnwy",
+            password: "imwjrrkz1cf0"
         }
     };
 }
@@ -24,5 +25,4 @@ chrome.webRequest.onAuthRequired.addListener(
         {urls: ["<all_urls>"]},
         ['blocking']
 );
-
-
+    

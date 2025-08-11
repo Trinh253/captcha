@@ -1,11 +1,4 @@
-/* global config, tld, URLPattern */
-
-// Firefox
-if (!self.URLPattern) {
-  await import('/data/polyfill/urlpattern.js').then(o => {
-    self.URLPattern = o.URLPattern;
-  });
-}
+/* global config, tldjs, URLPattern */
 
 // links
 for (const a of [...document.querySelectorAll('[data-href]')]) {
@@ -41,20 +34,29 @@ document.getElementById('global').onchange = e => {
 const page = {};
 
 const match = (hostname, href) => {
-  try {
-    const v = new URLPattern({hostname});
-    if (v.test(href)) {
-      return true;
+  if (typeof URLPattern !== 'undefined') {
+    try {
+      const v = new URLPattern({hostname});
+      if (v.test(href)) {
+        return true;
+      }
     }
-  }
-  catch (e) {}
-  try {
-    const v = new URLPattern({hostname: '*.' + hostname});
-    if (v.test(href)) {
-      return true;
+    catch (e) {}
+    try {
+      const v = new URLPattern({hostname: '*.' + hostname});
+      if (v.test(href)) {
+        return true;
+      }
     }
+    catch (e) {}
   }
-  catch (e) {}
+  else {
+    try {
+      const o = new URL(href);
+      return hostname === o.hostname || hostname.endsWith('.' + o.hostname);
+    }
+    catch (e) {}
+  }
 };
 
 // Start Point
@@ -98,7 +100,7 @@ chrome.tabs.query({
 document.getElementById('page').onchange = async e => {
   const prefs = await config.get(['top-hosts']);
 
-  const d = tld.getDomain(page.hostname) || page.hostname;
+  const d = tldjs.getDomain(page.hostname) || page.hostname;
 
   if (e.target.checked) {
     const rms = new Set();

@@ -1,4 +1,4 @@
-/* global config */
+/* global config, URLPattern */
 'use strict';
 
 const args = new URLSearchParams(location.search);
@@ -234,16 +234,14 @@ const onPopupRequest = async request => {
             if (prefix.includes('p')) {
               const [p, o] = match.slice(prefix.length + 1).split('|||');
 
-              // Firefox
-              if (!self.URLPattern) {
-                await import('/data/polyfill/urlpattern.js').then(o => {
-                  self.URLPattern = o.URLPattern;
-                });
+              if (typeof URLPattern !== 'undefined') {
+                const pattern = new URLPattern(p, o || ('https://' + request.hostname));
+                if (pattern.test(dest)) {
+                  return matched(action);
+                }
               }
-
-              const pattern = new self.URLPattern(p, o || ('https://' + request.hostname));
-              if (pattern.test(dest)) {
-                return matched(action);
+              else {
+                alert('"URLPattern" is not supported in this browser. Please use RegExp instead.\n\n: Rule: ' + p);
               }
             }
             else if (prefix.includes('r')) {
@@ -342,21 +340,26 @@ const message = (request, sender, response) => {
     response(true);
   }
   else if ([
-    'allow-last-request', 'deny-last-request', 'background-last-request', 'redirect-last-request'
+    'allow-last-request', 'deny-last-request', 'background-last-request', 'redirect-last-request', 'focus-last-request'
   ].includes(request.cmd)) {
     const value = Object.values(urls).sort((a, b) => b.timestamp - a.timestamp).shift();
     if (value) {
       const div = value.div;
-      const cmd = {
-        'allow-last-request': 'popup-accepted',
-        'deny-last-request': 'popup-denied',
-        'background-last-request': 'open-tab',
-        'redirect-last-request': 'popup-redirect'
-      }[request.cmd];
+      if (request.cmd === 'focus-last-request') {
+        div.focus();
+      }
+      else {
+        const cmd = {
+          'allow-last-request': 'popup-accepted',
+          'deny-last-request': 'popup-denied',
+          'background-last-request': 'open-tab',
+          'redirect-last-request': 'popup-redirect'
+        }[request.cmd];
 
-      const button = div.querySelector(`[data-cmd="${cmd}"]`);
-      if (button) {
-        button.click();
+        const button = div.querySelector(`[data-cmd="${cmd}"]`);
+        if (button) {
+          button.click();
+        }
       }
     }
   }
@@ -373,9 +376,34 @@ addEventListener('message', e => {
 // keyboard support for Escape
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
+    e.preventDefault();
     const d = document.activeElement.closest('.ppblocker-div') || document.querySelector('.ppblocker-div');
     if (d) {
       d.querySelector('[data-cmd=popup-close]').click();
     }
   }
+  else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    const d = document.querySelector('.ppblocker-div:has(+ .ppblocker-div:focus-within)');
+    if (d) {
+      d.focus();
+    }
+  }
+  else if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    const d = document.querySelector('.ppblocker-div:focus-within + .ppblocker-div');
+    if (d) {
+      d.focus();
+    }
+  }
 });
+
+// user styling
+{
+  const css = localStorage.getItem('user-styling');
+  if (css) {
+    const style = document.createElement('style');
+    style.textContent = css;
+    document.head.appendChild(style);
+  }
+}
