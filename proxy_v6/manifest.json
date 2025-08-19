@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "IPv4 Proxy With Auth",
+  "version": "1.0",
+  "permissions": [
+    "proxy",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Proxy Auth"
+  }
+}

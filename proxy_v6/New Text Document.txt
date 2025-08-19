@@ -1,0 +1,20 @@
+chrome.runtime.onInstalled.addListener(() => {
+  const config = {
+    mode: "fixed_servers",
+    rules: {
+      singleProxy: {
+        scheme: "socks5",
+        host: "[2a00:1450:4001:801::200e]", // ← IPv6 phải nằm trong dấu []
+        port: 1080
+      },
+      bypassList: ["<local>"]
+    }
+  };
+
+  chrome.proxy.settings.set(
+    { value: config, scope: 'regular' },
+    function() {
+      console.log("Đã thiết lập proxy IPv6.");
+    }
+  );
+});
